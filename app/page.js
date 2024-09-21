@@ -23,7 +23,7 @@ export default function Home() {
             <Link href={'/my-skills'} className="rounded-[20px] bg-blue-500 group relative hover:bg-blue-800 px-5 py-3 text-md md:text-lg text-white max-w-[180px] md:max-w-[200px]">
               Learn More
             </Link>
-            <a href='/ts.png' download className="rounded-[20px] bg-transparent relative group  px-5 py-3 text-md md:text-lg text-white max-w-[180px] md:max-w-[200px] border-2">
+            <a href='/Resume.pdf' download className="rounded-[20px] bg-transparent relative group  px-5 py-3 text-md md:text-lg text-white max-w-[180px] md:max-w-[200px] border-2">
               <div className="absolute rounded-[20px] z-[1] bg-white inset-0 opacity-0" />
               Resume
             </a>
@@ -61,10 +61,10 @@ export default function Home() {
 
       {/* Mobile buttons */}
       <div className="flex-row absolute flex bottom-36 z-[20] right-[2.25rem] md:hidden gap-5">
-        <Link href={'/about'} className="rounded-[20px] bg-blue-500 group hover:bg-blue-800 px-5 py-3 text-lg text-white max-w-[200px]">
+        <Link href={'/my-skills'} className="rounded-[20px] bg-blue-500 group hover:bg-blue-800 px-5 py-3 text-lg text-white max-w-[200px]">
           Learn More
         </Link>
-        <Link href={'/about'} className="rounded-[20px] bg-transparent group hover:bg-blue-800 px-5 py-3 text-lg text-white max-w-[200px]">
+        <Link href='/Resume.pdf' className="rounded-[20px] bg-transparent group hover:bg-blue-800 px-5 py-3 text-lg text-white max-w-[200px]">
           Resume
         </Link>
       </div>
