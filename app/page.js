@@ -1,112 +1,72 @@
+"use client";
+import { useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
+import { motion } from "framer-motion";
+import { ReactTyped } from "react-typed";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">app/page.js</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    <main className="w-screen min-h-screen relative overflow-y-auto"> {/* Allow vertical scroll */}
+      {/* Main content on the left */}
+      <div className="w-full min-h-screen flex items-center bg-black">
+        <div className="pl-8 md:pl-10 lg:pl-40 pb-[34rem] md:pb-20 flex flex-col gap-5 z-[10] max-w-[90%] sm:max-w-[80%] md:max-w-[70%] lg:max-w-[60%] xl:max-w-[50%]">
+          <h1 className="text-[30px] sm:text-[40px] md:text-[50px] text-white font-semibold">
+            <ReactTyped strings={["Self-learned", "Passionate", "Motivated"]} typeSpeed={200} loop className="text-[20px] md:text-[25px]" />
+            <br />
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-cyan-200"> Frontend Developer</span>
+          </h1>
+          <p className="text-gray-200 font-semibold hidden md:block text-[14px] sm:text-[16px] md:text-[18px]">
+            I am a passionate frontend developer with expertise in building high-performance, scalable web applications using React.js, JavaScript, and modern web technologies. With hands-on experience at CrudOps Pvt Ltd, I’ve contributed to innovative projects, including web applications and API integrations, while collaborating with cross-functional teams to deliver efficient solutions.
+          </p>
+          <div className="flex-col md:flex-row hidden md:flex gap-5">
+            <Link href={'/my-skills'} className="rounded-[20px] bg-blue-500 group relative hover:bg-blue-800 px-5 py-3 text-md md:text-lg text-white max-w-[180px] md:max-w-[200px]">
+              Learn More
+            </Link>
+            <a href='/ts.png' download className="rounded-[20px] bg-transparent relative group  px-5 py-3 text-md md:text-lg text-white max-w-[180px] md:max-w-[200px] border-2">
+              <div className="absolute rounded-[20px] z-[1] bg-white inset-0 opacity-0" />
+              Resume
+            </a>
+          </div>
         </div>
       </div>
 
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-full sm:before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full sm:after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
+      {/* Image with framer-motion animation on the right */}
+      <div className="absolute right-[3.2rem] bottom-[12.5rem] md:right-10 xl:right-20 md:bottom-20 z-[10] w-[250px] sm:w-[300px] md:w-[400px] h-[400px] sm:h-[500px] md:h-[440px] flex items-center justify-center">
+        
+        {/* Overlapping colored circles */}
+        <div className="absolute top-20 left-4 w-40 h-40 sm:w-52 sm:h-52 bg-purple-500 rounded-full mix-blend-multiply filter blur-xl opacity-80 animate-blob" />
+        <div className="absolute top-0 left-4 w-40 h-40 sm:w-52 sm:h-52 bg-yellow-700 rounded-full mix-blend-multiply filter blur-xl opacity-80 animate-blob" />
+        <div className="absolute top-10 right-4 w-40 h-40 sm:w-52 sm:h-52 bg-green-400 rounded-full mix-blend-multiply filter blur-xl opacity-80 animate-blob" />
+        <div className="absolute bottom-5 left-12 w-40 h-40 sm:w-52 sm:h-52 bg-blue-500 rounded-full mix-blend-multiply filter blur-xl opacity-80 animate-blob" />
+        <div className="absolute bottom-5 right-4 w-40 h-40 sm:w-52 sm:h-52 bg-violet-700 rounded-full mix-blend-multiply filter blur-xl opacity-80 animate-blob" />
+
+        {/* Framer motion image animation */}
+        <div className="relative w-[80%] h-[80%] z-[3]">
+          <motion.div
+            className="w-full h-full "
+            whileHover={{ scale: 1.05 }} // Scale effect on hover
+            whileTap={{ scale: 0.95 }}  // Tap effect
+          >
+            <Image
+              src="/profile.JPG" // Replace this with your image path
+              alt="Profile Image"
+              layout="fill"
+              objectFit="cover"
+              className="rounded-xl"
+            />
+          </motion.div>
+        </div>
       </div>
 
-      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800 hover:dark:bg-opacity-30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore starter templates for Next.js.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50 text-balance`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
+      {/* Mobile buttons */}
+      <div className="flex-row absolute flex bottom-36 z-[20] right-[2.25rem] md:hidden gap-5">
+        <Link href={'/about'} className="rounded-[20px] bg-blue-500 group hover:bg-blue-800 px-5 py-3 text-lg text-white max-w-[200px]">
+          Learn More
+        </Link>
+        <Link href={'/about'} className="rounded-[20px] bg-transparent group hover:bg-blue-800 px-5 py-3 text-lg text-white max-w-[200px]">
+          Resume
+        </Link>
       </div>
     </main>
   );
