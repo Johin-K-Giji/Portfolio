@@ -56,7 +56,7 @@ const Navigation = () => {
     return (
         <div className='fixed bottom-5 left-1/2 transform -translate-x-1/2 z-[50] w-[90%] md:w-[60%] lg:w-[40%] max-h-[80px] rounded-full flex justify-around items-center border border-white px-4 py-3 bg-black bg-opacity-80'>
             {/* Transition effect when routing */}
-            {isRouting && <Transition />}
+            {isRouting }
             {Navlinks.map((nav) => (
                 <Link className="min-w-[20%] text-center" key={nav.name} href={nav.link}>
                     <nav.icon className={`w-[24px] h-[24px] mx-auto ${path === nav.name ? "text-purple-600" : "text-white"}`} />
