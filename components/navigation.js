@@ -49,8 +49,8 @@ const Navigation = () => {
             {/* Transition effect when routing */}
             {isRouting && <div className="transition-effect">Routing...</div>}
             {Navlinks.map((nav) => (
-                <Link className="min-w-[20%] text-center" key={nav.name} href={nav.link}>
-                    <span className={`text-lg ${path === nav.link ? "text-purple-600" : "text-white"}`}>
+                <Link className="min-w-[20%] text-center gap-3" key={nav.name} href={nav.link}>
+                    <span className={`text-base ${path === nav.link ? "text-purple-600" : "text-white"}`}>
                         {nav.name}
                     </span>
                 </Link>
