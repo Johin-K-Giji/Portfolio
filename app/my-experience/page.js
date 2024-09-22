@@ -44,7 +44,7 @@ const Page = () => {
               <h2 className='font-bold text-xl'>Nosce Techno Solutions <span className='text-sm'> (June 2023 - Dec 2023)</span></h2>
               <a href="" className="font-bold">Web Developer Intern</a>
               <ul className="list-disc text-sm ml-4 space-y-2">
-                <li>Focused on web application development with some machine learning experience.</li>
+                <li>Led the development of dynamic and responsive user interfaces using React.js and Next.js, ensuring cross-browser compatibility and seamless user experience across all devices.</li>
                 <li>Coordinated teams and worked with JavaScript frameworks and Python.</li>
                 <li>Contributed to the successful development and deployment of a virtual calling app.</li>
               </ul>
