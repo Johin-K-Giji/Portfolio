@@ -10,7 +10,7 @@ const Navbar = () => {
                 Johin K Gigi
         </h1>
         <a href='https://www.linkedin.com/in/johin-k-gigi/' target="_blank" rel="noopener noreferrer"><CiLinkedin  size={40}  color='white' className='cursor-pointer' /></a>
-        <a href='https://github.com/Johin123' target="_blank" rel="noopener noreferrer"><FaGithub size={40} color='white' className='cursor-pointer' /></a>
+        <a href='https://github.com/Johin-K-Giji' target="_blank" rel="noopener noreferrer"><FaGithub size={40} color='white' className='cursor-pointer' /></a>
         </div>
             
     </div>
