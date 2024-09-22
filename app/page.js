@@ -17,8 +17,8 @@ export default function Home() {
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-cyan-200"> Frontend Developer</span>
           </h1>
           <p className="text-gray-200 font-semibold hidden md:block text-[14px] sm:text-[16px] md:text-[18px]">
-            I am a passionate frontend developer with expertise in building high-performance, scalable web applications using React.js, JavaScript, and modern web technologies. With hands-on experience at CrudOps Pvt Ltd, I’ve contributed to innovative projects, including web applications and API integrations, while collaborating with cross-functional teams to deliver efficient solutions.
-          </p>
+With 2 years of experience in frontend development, including 1 year in a professional setting and 1 year as a freelancer, I specialize in creating dynamic and responsive web applications. My technical skills encompass a robust frontend toolkit featuring React.js, React Native, Next.js, Redux, Tailwind CSS, and Figma, paired with backend technologies like REST API, Python Flask, Firebase, MySQL, PostgreSQL, MongoDB, and Node.js.
+I am proficient in utilizing tools and platforms such as Git & GitHub, Postman, and Docker, and I excel at troubleshooting and deploying applications. I am passionate about delivering user-centric designs and enhancing user experiences while maintaining high coding standards </p>
           <div className="flex-col md:flex-row hidden md:flex gap-5">
             <Link href={'/my-skills'} className="rounded-[20px] bg-blue-500 group relative hover:bg-blue-800 px-5 py-3 text-md md:text-lg text-white max-w-[180px] md:max-w-[200px]">
               Learn More
