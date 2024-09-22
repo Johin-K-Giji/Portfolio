@@ -24,7 +24,7 @@ const Page = () => {
               <h2 className='font-bold text-xl'>Crudops Pvt Ltd <span className='text-sm'> (2023-2024)</span></h2>
               <a href="" className="font-bold">Software Developer</a>
               <ul className="list-disc text-sm ml-4 space-y-2">
-                <li>Focused on web application development with some machine learning experience.</li>
+                <li>Led the development of dynamic and responsive user interfaces using React.js and Next.js, ensuring cross-browser compatibility and seamless user experience across all devices.</li>
                 <li>Coordinated teams and worked with JavaScript frameworks and Python.</li>
                 <li>Contributed to the successful development and deployment of a virtual calling app.</li>
               </ul>
@@ -44,9 +44,14 @@ const Page = () => {
               <h2 className='font-bold text-xl'>Nosce Techno Solutions <span className='text-sm'> (June 2023 - Dec 2023)</span></h2>
               <a href="" className="font-bold">Web Developer Intern</a>
               <ul className="list-disc text-sm ml-4 space-y-2">
-                <li>Led the development of dynamic and responsive user interfaces using React.js and Next.js, ensuring cross-browser compatibility and seamless user experience across all devices.</li>
-                <li>Coordinated teams and worked with JavaScript frameworks and Python.</li>
-                <li>Contributed to the successful development and deployment of a virtual calling app.</li>
+                <li>Assisted in developing user-friendly web applications using React,
+contributing to the implementation of basic functionalities and enhancing
+user interaction.</li>
+                <li>Gained hands-on experience with React components and state management,
+enhancing my understanding of frontend development and best coding
+practices.
+</li>
+                
               </ul>
             </div>
           </div>
