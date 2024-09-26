@@ -18,8 +18,7 @@ export default function Home() {
           </h1>
           <p className="text-gray-200 font-semibold hidden md:block text-[14px] sm:text-[16px] md:text-[18px]">
 With 2 years of experience in frontend development, including 1+ years in a professional setting and a 6 months of internship, I specialize in creating dynamic and responsive web applications. My technical skills encompass a robust frontend toolkit featuring React.js, React Native, Next.js, Redux, Tailwind CSS, and Figma, paired with backend technologies like REST API, Python Flask, Firebase, MySQL, PostgreSQL, MongoDB, and Node.js.
-
-I am proficient in utilizing tools and platforms such as Git & GitHub, Postman, and Docker, and I excel at troubleshooting and deploying applications. I am passionate about delivering user-centric designs and enhancing user experiences while maintaining high coding standards.</p>
+</p>
           <div className="flex-col md:flex-row hidden md:flex gap-5">
             <Link href={'/my-skills'} className="rounded-[20px] bg-blue-500 group relative hover:bg-blue-800 px-5 py-3 text-md md:text-lg text-white max-w-[180px] md:max-w-[200px]">
               Learn More
