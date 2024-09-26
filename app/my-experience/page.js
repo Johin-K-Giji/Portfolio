@@ -24,7 +24,7 @@ const Page = () => {
               <h2 className='font-bold text-xl'>Crudops Pvt Ltd <span className='text-sm'> (2023-2024)</span></h2>
               <a href="" className="font-bold">Software Developer</a>
               <ul className="list-disc text-sm ml-4 space-y-2">
-                <li>Led the development of dynamic and responsive user interfaces using React.js and Next.js, ensuring cross-browser compatibility and seamless user experience across all devices.</li>
+                <li>Led the creation of responsive web applications using React and related libraries, ensuring high performance across devices.</li>
                 <li>Coordinated teams and worked with JavaScript frameworks and Python.</li>
                 <li>Contributed to the successful development and deployment of a virtual calling app.</li>
               </ul>
