@@ -53,7 +53,7 @@ const Page = () => {
               alt='Virtual Calling Application'
             />
             <div className="flex-row flex items-center gap-4 mt-4">
-              <FaGlobe size={30} />
+              <a href="https://ringme.ai/"><FaGlobe size={30} /></a>
               <h2 className="font-bold">Virtual Calling Application</h2>
               <a href="" className="text-green-700 font-semibold">Documentation</a>
             </div>
