@@ -43,7 +43,7 @@ various SQL and NoSQL databases.</li>
                 className='w-[50px] h-[50px] rounded-full border border-black border-solid'
                 alt='Nosce Techno Solutions'
               />
-              <h2 className='font-bold text-xl'>Nosce Techno Solutions <span className='text-sm'> (June 2023 - Dec 2023)</span></h2>
+              <h2 className='font-bold text-xl'>Nosce Techno Solutions <span className='text-sm'> (June 2022 - Dec 2022)</span></h2>
               <a href="" className="font-bold">Web Developer Intern</a>
               <ul className="list-disc text-sm ml-4 space-y-2">
                 <li>Assisted in developing user-friendly web applications using React,
