@@ -25,8 +25,10 @@ const Page = () => {
               <a href="" className="font-bold">Software Developer</a>
               <ul className="list-disc text-sm ml-4 space-y-2">
                 <li>Led the creation of responsive web applications using React and related libraries, ensuring high performance across devices.</li>
-                <li>Coordinated teams and worked with JavaScript frameworks and Python.</li>
-                <li>Contributed to the successful development and deployment of a virtual calling app.</li>
+                <li>Worked on web and app development projects, utilizing Python
+Flask and various SQL and NoSQL databases and worked on
+web and app development projects, utilizing Python Flask and
+various SQL and NoSQL databases.</li>
               </ul>
             </div>
           </div>
