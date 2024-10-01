@@ -21,9 +21,9 @@ const Page = () => {
               alt='Netflix Clone'
             />
             <div className="flex-row flex items-center gap-4 mt-4">
-              <FaGithub size={30} />
+             {/* <FaGithub size={30} /> */}
               <h2 className="font-bold">Netflix Clone</h2>
-              <a href="" className="text-green-700 font-semibold">Documentation</a>
+                {/*<a href="" className="text-green-700 font-semibold">Documentation</a> */}
             </div>
           </div>
         </div>
@@ -37,9 +37,9 @@ const Page = () => {
               alt='Cinephile Movie Organizer'
             />
             <div className="flex-row flex items-center gap-4 mt-4">
-              <FaGithub size={30} />
+             
               <h2 className="font-bold">Cinephile Movie Organizer</h2>
-              <a href="" className="text-green-700 font-semibold">Documentation</a>
+              
             </div>
           </div>
         </div>
@@ -55,7 +55,7 @@ const Page = () => {
             <div className="flex-row flex items-center gap-4 mt-4">
               <a href="https://ringme.ai/"><FaGlobe size={30} /></a>
               <h2 className="font-bold">Virtual Calling Application</h2>
-              <a href="" className="text-green-700 font-semibold">Documentation</a>
+             
             </div>
           </div>
         </div>
