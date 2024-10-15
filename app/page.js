@@ -17,7 +17,7 @@ export default function Home() {
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-cyan-200"> Frontend Developer</span>
           </h1>
           <p className="text-gray-200 font-semibold hidden md:block text-[14px] sm:text-[16px] md:text-[18px]">
-With 2 years of experience in frontend development, including 1+ years in a professional setting and a 6 months of internship, I specialize in creating dynamic and responsive web applications. My technical skills encompass a robust frontend toolkit featuring React.js, React Native, Next.js, Redux, Tailwind CSS, and Figma, paired with backend technologies like REST API, Python Flask , Node.js , SQL and Non-SQL Databases.
+With 2 years of experience in frontend development, including 1+ years in a professional setting and a 6 months of internship, I specialize in creating dynamic and responsive web applications. My technical skills encompass a robust frontend toolkit featuring React.js, React Native, Next.js, Redux, Tailwind CSS, and Figma, paired with backend technologies like REST API, Python Flask , Node.js , SQL and NoSQL Databases.
 </p>
           <div className="flex-col md:flex-row hidden md:flex gap-5">
             <Link href={'/my-skills'} className="rounded-[20px] bg-blue-500 group relative hover:bg-blue-800 px-5 py-3 text-md md:text-lg text-white max-w-[180px] md:max-w-[200px]">
