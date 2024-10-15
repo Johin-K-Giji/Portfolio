@@ -18,7 +18,7 @@ const Page = () => {
             <div className='flex flex-col gap-4 items-center lg:items-start text-white'>
               <img 
                 src='./logocmp1.jpg'
-                className='w-[50px] h-[50px] rounded-full border border-black border-solid'
+                className='w-[50px] h-[54px] rounded-full border border-black border-solid'
                 alt='Crudops Pvt Ltd'
               />
               <h2 className='font-bold text-xl'>Crudops Pvt Ltd <span className='text-sm'> (2023-2024)</span></h2>
