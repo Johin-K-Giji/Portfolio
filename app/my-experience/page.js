@@ -13,7 +13,7 @@ const Page = () => {
       {/* Experience cards */}
       <div className="flex flex-col lg:flex-row gap-6 w-full justify-center items-center px-4  h-full">
         {/* Experience 1 */}
-        <div className='w-full max-w-[550px] lg:max-w-[45%] h-[650px] lg:h-[450px] card-wrapper bg-gray-800 rounded-lg '>
+        <div className='w-full max-w-[550px] lg:max-w-[45%] h-[650px] lg:h-[350px] card-wrapper bg-gray-800 rounded-lg '>
           <div className='flex flex-col justify-between p-8 card-content'>
             <div className='flex flex-col gap-4 items-center lg:items-start text-white'>
               <img 
@@ -37,7 +37,7 @@ efficient data handling.
         </div>
 
         {/* Experience 2 */}
-        <div className='w-full max-w-[550px] lg:max-w-[45%] h-[650px] lg:h-[450px] card-wrapper bg-gray-800 rounded-lg'>
+        <div className='w-full max-w-[550px] lg:max-w-[45%] h-[650px] lg:h-[350px] card-wrapper bg-gray-800 rounded-lg'>
           <div className='flex flex-col justify-between p-6 card-content'>
             <div className='flex flex-col gap-4 items-center lg:items-start text-white'>
               <img 
