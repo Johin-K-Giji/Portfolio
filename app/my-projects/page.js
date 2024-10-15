@@ -11,7 +11,7 @@ const Page = () => {
       </div>
 
       {/* Grid for project cards */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
         {/* Project 1 - Netflix Clone */}
         <div className='w-full max-w-[350px] h-[300px] bg-white rounded-2xl flex flex-col'>
           <div className='flex flex-col justify-between mt-2 mx-4'>
