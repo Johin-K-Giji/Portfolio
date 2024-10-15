@@ -23,7 +23,7 @@ With 2 years of experience in frontend development, including 1+ years in a prof
             <Link href={'/my-skills'} className="rounded-[20px] bg-blue-500 group relative hover:bg-blue-800 px-5 py-3 text-md md:text-lg text-white max-w-[180px] md:max-w-[200px]">
               Learn More
             </Link>
-            <a href='/Resume.pdf' download className="rounded-[20px] bg-transparent relative group  px-5 py-3 text-md md:text-lg text-white max-w-[180px] md:max-w-[200px] border-2">
+            <a href='/Johin K Gigi.pdf' download className="rounded-[20px] bg-transparent relative group  px-5 py-3 text-md md:text-lg text-white max-w-[180px] md:max-w-[200px] border-2">
               <div className="absolute rounded-[20px] z-[1] bg-white inset-0 opacity-0" />
               Resume
             </a>
