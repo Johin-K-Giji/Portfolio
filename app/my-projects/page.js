@@ -16,17 +16,19 @@ const Page = () => {
         <div className='w-full max-w-[350px] h-[300px] bg-white rounded-2xl flex flex-col'>
           <div className='flex flex-col justify-between mt-2 mx-4'>
             <img 
-              src='./netflix.png'
+              src='./E-Com.png'
               className='w-full h-[150px] object-cover rounded-t-lg'
               alt='Netflix Clone'
             />
             <div className="flex-row flex items-center gap-4 mt-4">
              {/* <FaGithub size={30} /> */}
-              <h2 className="font-bold">Netflix Clone</h2>
+              <h2 className="font-bold">E-Commerce Application</h2>
                 {/*<a href="" className="text-green-700 font-semibold">Documentation</a> */}
             </div>
           </div>
         </div>
+
+
 
         {/* Project 2 - Cinephile Movie Organizer */}
         <div className='w-full max-w-[350px] h-[300px] bg-white rounded-2xl flex flex-col'>
@@ -40,6 +42,21 @@ const Page = () => {
              
               <h2 className="font-bold">Cinephile Movie Organizer</h2>
               
+            </div>
+          </div>
+        </div>
+
+<div className='w-full max-w-[350px] h-[300px] bg-white rounded-2xl flex flex-col'>
+          <div className='flex flex-col justify-between mt-2 mx-4'>
+            <img 
+              src='./netflix.png'
+              className='w-full h-[150px] object-cover rounded-t-lg'
+              alt='Netflix Clone'
+            />
+            <div className="flex-row flex items-center gap-4 mt-4">
+             {/* <FaGithub size={30} /> */}
+              <h2 className="font-bold">Netflix Clone</h2>
+                {/*<a href="" className="text-green-700 font-semibold">Documentation</a> */}
             </div>
           </div>
         </div>
