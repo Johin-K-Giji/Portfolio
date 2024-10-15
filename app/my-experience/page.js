@@ -13,12 +13,12 @@ const Page = () => {
       {/* Experience cards */}
       <div className="flex flex-col lg:flex-row gap-6 w-full justify-center items-center px-4  h-full">
         {/* Experience 1 */}
-        <div className='w-full max-w-[550px] lg:max-w-[45%] h-[400px] lg:h-[300px] card-wrapper bg-gray-800 rounded-lg '>
+        <div className='w-full max-w-[550px] lg:max-w-[45%] h-[500px] lg:h-[300px] card-wrapper bg-gray-800 rounded-lg '>
           <div className='flex flex-col justify-between p-6 card-content'>
             <div className='flex flex-col gap-4 items-center lg:items-start text-white'>
               <img 
                 src='./logocmp1.jpg'
-                className='w-[50px] h-[54px] rounded-full border border-black border-solid'
+                className='w-[50px] h-[50px] rounded-full border border-black border-solid'
                 alt='Crudops Pvt Ltd'
               />
               <h2 className='font-bold text-xl'>Crudops Pvt Ltd <span className='text-sm'> (2023-2024)</span></h2>
