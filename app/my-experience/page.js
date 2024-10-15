@@ -25,10 +25,12 @@ const Page = () => {
               <a href="" className="font-bold">Software Developer</a>
               <ul className="list-disc text-sm ml-4 space-y-2">
                 <li>Led the creation of responsive web applications using React and related libraries, ensuring high performance across devices.</li>
-                <li>Worked on web and app development projects, utilizing Python
-Flask and various SQL and NoSQL databases and worked on
-web and app development projects, utilizing Python Flask and
-various SQL and NoSQL databases.</li>
+                  <li>Collaborated on both web and mobile app projects, integrating APIs and managing state with
+Redux and React Context API.</li>
+
+                <liUtilized Python Flask for backend services and worked with SQL and NoSQL databases for
+efficient data handling.
+</li>
               </ul>
             </div>
           </div>
