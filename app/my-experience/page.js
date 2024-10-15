@@ -28,7 +28,7 @@ const Page = () => {
                   <li>Collaborated on both web and mobile app projects, integrating APIs and managing state with
 Redux and React Context API.</li>
 
-                <liUtilized Python Flask for backend services and worked with SQL and NoSQL databases for
+                <li>Utilized Python Flask for backend services and worked with SQL and NoSQL databases for
 efficient data handling.
 </li>
               </ul>
