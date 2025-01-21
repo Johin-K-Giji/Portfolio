@@ -54,7 +54,7 @@ Python Flask to deliver scalable and responsive web applications.</li>
 optimization for better online visibility and performance.
 </li>
   li>Designed and implemented intuitive UI/UX for web and mobile apps, leveraging tools like
-Figma to enhance user engagement and experience.
+Figma to enhance user engagement and experience .
 </li>
                 
               </ul>
