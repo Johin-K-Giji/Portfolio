@@ -43,17 +43,15 @@ efficient data handling.
               <img 
                 src='./logocmp2.jpg'
                 className='w-[50px] h-[50px] rounded-full border border-black border-solid'
-                alt='Nosce Techno Solutions'
+                alt='Freelance'
               />
-              <h2 className='font-bold text-xl'>Nosce Techno Solutions <span className='text-sm'> (June 2022 - Dec 2022)</span></h2>
-              <a href="" className="font-bold">Web Developer Intern</a>
+              <h2 className='font-bold text-xl'>Freelance Software Developer<span className='text-sm'> (June 2024- Present)</span></h2>
+              
               <ul className="list-disc text-sm ml-4 space-y-2">
-                <li>Assisted in developing user-friendly web applications using React,
-contributing to the implementation of basic functionalities and enhancing
-user interaction.</li>
-                <li>Gained hands-on experience with React components and state management,
-enhancing my understanding of frontend development and best coding
-practices.
+                <li>Led the development of e-commerce projects for clients in the UAE, using React.js and
+Python Flask to deliver scalable and responsive web applications.</li>
+                <li>Managed full project life cycles, including deployment on AWS EC2 and ensured SEO
+optimization for better online visibility and performance.
 </li>
                 
               </ul>
