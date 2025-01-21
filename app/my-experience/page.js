@@ -53,7 +53,7 @@ Python Flask to deliver scalable and responsive web applications.</li>
                 <li>Managed full project life cycles, including deployment on AWS EC2 and ensured SEO
 optimization for better online visibility and performance.
 </li>
-  li>Designed and implemented intuitive UI/UX for web and mobile apps, leveraging tools like
+  <li>Designed and implemented intuitive UI/UX for web and mobile apps, leveraging tools like
 Figma to enhance user engagement and experience .
 </li>
                 
